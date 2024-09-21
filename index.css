@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #FDBB30;
+  color: #FDBB30;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  /* border: 1px dotted white; */
+  background-color: #041E42;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scoreboard {
+  /* border: 1px dotted white;  */
+  text-align: center;
+  font-size: 38px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  /* border: 1px dotted white; */
+}
+
+.image img {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #860038;
+  border-radius: 10px;
+  width: 600px;
+  height: 60px;
+}
+
+#score-box {
+  background-color: #080001;
+  border: 2px solid #FDBB30; 
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  margin: -46 auto 0 auto;
+}
+
+.points-style {
+  display: block;
+  align-items: center;
+  color: #860038;
+  text-shadow: none;
+  /* border: 1px dotted rgb(182, 36, 36); */
+  height: 70px;
+  width: 70px;
+  margin: 5 auto 5 auto;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.plus-display {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+  /* border: 2px dotted white; */
+}
+
+.plus-btn-style {
+  height: 45px;
+  width: 45px;
+  border: 2px solid #FDBB30;
+  border-radius: 5px;
+  color: #FDBB30;
+  background-color: #041E42;
+}
+
+.plus-btn-style {
+  font-size: 18px;
+  font-weight: 400;
+}
