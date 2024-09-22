@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "cursed-timer";
+  src: url(font/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,9 +11,9 @@ body {
   margin: 0;
   background-color: #FDBB30;
   color: #FDBB30;
-  font-family: "Roboto", sans-serif;
+  font-family: "cursed-timer";
   font-size: 100px;
-  font-weight: 900;
+  font-weight: 300;
   font-style: normal;
   display: flex;
   justify-content: center;
@@ -27,9 +32,10 @@ body {
 }
 
 .scoreboard {
-  /* border: 1px dotted white;  */
+  /* border: 1px dotted white;   */
   text-align: center;
   font-size: 38px;
+  margin-top: -40px;
 }
 
 .image {
@@ -56,7 +62,7 @@ body {
   background-color: #080001;
   border: 2px solid #FDBB30; 
   border-radius: 5px;
-  width: 80px;
+  width: 100px;
   height: 80px;
   margin: -46 auto 0 auto;
 }
@@ -70,8 +76,9 @@ body {
   height: 70px;
   width: 70px;
   margin: 5 auto 5 auto;
-  font-size: 60px;
+  font-size: 64px;
   font-weight: 400;
+  font-family: "cursed-timer";
 }
 
 .plus-display {
@@ -89,9 +96,22 @@ body {
   border-radius: 5px;
   color: #FDBB30;
   background-color: #041E42;
+  font-family: "cursed-timer";
 }
 
 .plus-btn-style {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#reset-btn {
+  width: 100px;
+  height: 45px;
+  font-family: "cursed-timer";
+  border: 2px solid #FDBB30;
+  border-radius: 5px;
+  color: #FDBB30;
+  background-color: #041E42;
   font-size: 18px;
   font-weight: 400;
 }

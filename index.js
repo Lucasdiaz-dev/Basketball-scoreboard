@@ -33,3 +33,10 @@ function incrementg3() {
     scoreg += 3
     scoreGuest.textContent = scoreg
 }
+
+function reset() {
+    scoreg = 0
+    scoreh = 0
+    scoreGuest.textContent = scoreg
+    scoreHome.textContent = scoreh
+}
